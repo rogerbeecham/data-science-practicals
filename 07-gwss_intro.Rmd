@@ -1,7 +1,5 @@
----
-title: "Week 07: Exploring Geographically-Weighted Summary Statistics"
-output: github_document
----
+# Week 07: Exploring Geographically-Weighted Summary Statistics
+
 ## Introduction
 
 This week's lecture introduced the concept of *geographically-weighted statistics* (GW).  GW-statistics were proposed in recognition of the fact that phenomena often vary systematically from place to place. They allow us to identify *changes* in the process that we're studying, for example crime rates or house prices, over space. 

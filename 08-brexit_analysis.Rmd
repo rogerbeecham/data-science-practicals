@@ -1,7 +1,4 @@
----
-title: "Spatially varying explanations behind the Brexit vote"
-output: github_document
----
+# Spatially varying explanations behind the Brexit vote
 
 In this extended practical session you'll perform a reasonably involved data analysis in R. For those with existing knowledge of R or with an appetite for using R in the future, the more technical aspects will be of interest: the practical draws on some routine R packages and scripting conventions for structuring and charting data. For those who are certain that R is not a software environment they're likely to use,  aspects of the session that expose the data analysis process, the reasoning and interpretation of graphical output given research questions, will be of interest. The practical will cover a somewhat depressing, though very current, topic: the UK's referendum vote on membership of the EU. 
 

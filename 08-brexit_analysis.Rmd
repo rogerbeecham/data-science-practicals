@@ -72,6 +72,7 @@ The code below results in:
  * an R SpatialDataFrame ("gb_boundaries"), with a DataFrame (accessed by `@data`) where the rows are LAs and columns are variables (as above), as well as coordinates describing the geographical extent of each LA (`@polygons`).
 
 ```{r, echo=TRUE, eval=FALSE}
+setwd("./week_08")
 # Read .csv containing referendum results data into an R DataFrame. A DataFrame consisting of 378 observations 
 # and 8 variables should appear in your RStudio Data pane. Click on this entry or enter View(referendum_data) 
 # to inspect the DataFrame as a spreadsheet.  

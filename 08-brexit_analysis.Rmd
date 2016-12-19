@@ -179,8 +179,8 @@ A [cartogram](https://en.wikipedia.org/wiki/Cartogram) may also be helpful here.
 # the variable with which we wish to size polygons: Electorate (number of voters in LA).
 data_gb_carto <- cartogram(data_gb, "Electorate", itermax=5)
 # To create the cartogram, supply precisely the same parameters to the tmap library as appear in the Choropleth example.
-# However, rather than passing data_db to tm_shape, pass data_db_carto:
-# e.g. tm_shape(data_gb) +
+# However, rather than passing data_gb to tm_shape, pass data_gb_carto:
+# e.g. tm_shape(data_gb_carto) +
 #   ...
 ```
 

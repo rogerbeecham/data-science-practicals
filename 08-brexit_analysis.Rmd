@@ -389,7 +389,7 @@ gw_correlations$geo_label <- data_gb@data$geo_label
 # has undue weight due to its distribution.
 dist_matrix <- gw_correlations@data %>%
     select(christian , white  , not_good_health , degree_educated , no_car) %>%
-    mutate_each(funs(z = .-mean(.)/sd(.)))
+    mutate_each(funs((z = .-mean(.))/sd(.)))
 dist_matrix <- dist(dist_matrix[,6:10])
 
 # HCA using the Ward's method.

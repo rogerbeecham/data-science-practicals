@@ -1,0 +1,14 @@
+title: Data Science Practicals in R
+description: A collection of R practical sessions for Data Science teaching
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+asciidoc: {}
+asciidoctor:
+  base_dir: :docdir
+  safe: unsafe
+  attributes:
+    - idseparator=_
+    - source-highlighter=coderay
+    - icons=font

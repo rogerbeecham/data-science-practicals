@@ -1,0 +1,70 @@
+<!doctype html>
+<!--[if IE 9]>
+<html class="lt-ie10" lang="en"> <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{page.title}}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="author" content="Roger Beecham">
+    <meta name="copyright" content="Creative Commons BY-NC-SA 4.0">
+    <link rel="stylesheet" href="{{page.root}}css/foundation.css">
+    <link rel="stylesheet" href="{{page.root}}css/font-awesome.css">
+    <link rel="stylesheet" href="{{page.root}}css/coderay.css">
+    <link rel="stylesheet" href="{{page.root}}css/asciidoctor.css">
+</head>
+<body>
+
+
+<!-- Nav Bar -->
+
+<nav class="top-bar" data-topbar>
+    <ul class="title-area">
+        <!-- Title Area -->
+        <li class="name">
+            <h1>
+                <a href="{{page.root}}">{{site.title}}</a>
+            </h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+</nav>
+<!-- End Nav -->
+
+
+<!-- Main Page Content and Sidebar -->
+
+<div class="row">
+
+    <!-- Main Blog Content -->
+    <div class="large-9 columns" role="content">
+
+        {{ content }}
+
+    </div>
+
+    <!-- End Main Content -->
+
+</div>
+
+<!-- End Main Content and Sidebar -->
+
+
+<!-- Footer -->
+
+<footer class="row">
+    <div class="large-12 columns">
+        <hr>
+        <div class="row">
+            <div class="large-12 columns">
+                <p style="color:#707070; font-size:0.9em"> Content by <a style="color:#707070" href="http://www.roger-beecham.com">Roger Beecham</a>. Licensed under <a style="color:#707070" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="{{page.root}}js/foundation.min.js"></script>
+
+</body>
+</html>

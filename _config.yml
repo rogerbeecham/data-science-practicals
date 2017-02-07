@@ -1,6 +1,7 @@
 title: Data Science Practicals in R
 description: A collection of R practical sessions for Data Science teaching
 exclude:
+  - README.adoc
   - Gemfile
   - Gemfile.lock
   - Rakefile

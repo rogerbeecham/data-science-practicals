@@ -1,15 +1,11 @@
-title: Data Science Practicals in R
-description: A collection of R practical sessions for Data Science teaching
-exclude:
-  - README.adoc
-  - Gemfile
-  - Gemfile.lock
-  - Rakefile
-asciidoc: {}
+# jekyll configuration
+
+title: "data-science-practicals"
+
 asciidoctor:
-  base_dir: :docdir
-  safe: unsafe
   attributes:
     - idseparator=_
     - source-highlighter=coderay
-    - icons=font
+    - icons=font-awesome
+
+# end of configuration

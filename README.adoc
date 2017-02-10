@@ -1,3 +1,0 @@
-= Data Science practicals in R
-
-A collection of Data Science practicals in R.

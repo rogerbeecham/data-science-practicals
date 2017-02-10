@@ -6,11 +6,8 @@ In this extended practical session you'll perform a reasonably involved data ana
 
 The narrow vote in favour of Leave was a shock to many. You've probably heard commentators remark on the underlying causes for why people voted as they did. These pronouncements have often been made based on the very obvious [geographic differences](http://www.bbc.co.uk/news/uk-politics-36616028) in voting preference.  A familiar caricature in the media is of Leave voting being a symptom of blue collar disaffection and Remain voting of liberal values and (relative) affluence. But is this borne out in the data? Here we'll take a single outcome variable -- the share of vote in favour of Leave in each GB Local Authority (LA) -- and study the extent to which key socio-economic variables from the 2011 Census might *explain* this outcome. Using geographically-weighted stats we'll investigate how the relationships in candidate explanations vary geographically.
 
-ADDITIONAL NOTE: We tried to keep this introduction brief. In your data analysis reports it will be necessary to provide a more up-front and specific set of research questions and motivation. Also note that we're not looking at individual behaviour here. We're looking at data aggregated at Local Authority (LA) level and can only attempt *explain* differences in voting prefence at this level. 
 
 ## How this applies to your coursework
-
-This practical is mainly about how to use and implement methods in R. Don't forget that your coursework will need motivation, research questions and perhaps recommended actions that result from your findings.
 
 For this practical, one *motivation* is that although the overall Remain:Leave vote was about 48:52, this ratio was certainty not uniformly spread. Every LA in Scotland voted to Remain, for example, and so too did inner London and parts of Northern Ireland. Motivating this study is better *understanding* as to what might drive these differences.
 

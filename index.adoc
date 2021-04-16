@@ -19,7 +19,7 @@ This practical introduces and examines Geographically-Weighted summary statistic
 
 [NOTE]
 ====
-The full practical can be viewed from this https://github.com/rogerbeecham/data-science-practicals/blob/master/07-gwss_intro.Rmd[page].
+The full practical can be viewed from this https://github.com/rogerbeecham/data-science-practicals/blob/master/07-gwss_intro.md[page].
 ====
 
 
@@ -38,7 +38,7 @@ This is a reasonably involved data analysis that draws on some routine R package
 
 [NOTE]
 ====
-The full practical can be viewed from this https://github.com/rogerbeecham/data-science-practicals/blob/master/08-brexit_analysis.Rmd[page].
+The full practical can be viewed from this https://github.com/rogerbeecham/data-science-practicals/blob/master/08-brexit_analysis.md[page].
 ====
 
 {empty} +
